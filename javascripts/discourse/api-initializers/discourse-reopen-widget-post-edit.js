@@ -5,7 +5,7 @@ import { longDate } from "discourse/lib/formatter";
 export default apiInitializer("1.8.0", (api) => {
   api.reopenWidget("post-edits-indicator", {
       html(attrs) {
-        const isPostOfStaff = attrs.user.admin || attrs.user.moderator;
+        const isPostOfStaff = attrs.staff;
         if (isPostOfStaff && (!this.currentUser || (this.currentUser && !this.currentUser.staff))) {
           return;
         }

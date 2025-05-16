@@ -1,5 +1,5 @@
 import { apiInitializer } from "discourse/lib/api";
-import { historyHeat } from "discourse/widgets/post-edits-indicator";
+import { historyHeat } from "discourse/components/post/meta-data/edits-indicator";
 import { longDate } from "discourse/lib/formatter";
 import { i18n } from "discourse-i18n";
 

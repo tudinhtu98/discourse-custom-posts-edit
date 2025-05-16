@@ -2,6 +2,6 @@
   "about_url": "https://github.com/tudinhtu98/discourse-custom-posts-edit",
   "license_url": "",
   "assets": {},
-  "name": "Custom Posts Edit",
+  "name": "Hide Edit Count On Topic",
   "component": true
 }
